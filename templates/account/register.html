@@ -1,0 +1,10 @@
+<h1>Register</h1>
+
+
+<form method="POST" action="">
+    {% for champ in form %}
+    {{champ.label}}
+    {{champ}}
+    {%endfor%}
+    <input type="submit" name="Register">
+</form>
